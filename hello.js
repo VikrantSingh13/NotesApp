@@ -1,0 +1,1 @@
+console.log("Best note taking app ever made!");
