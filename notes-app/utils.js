@@ -1,11 +1,9 @@
 console.log('utils.js');
 
-const name = "NotesApp";
-
-const add = function(a, b){
-    return a + b;
+const characterCount = function(str) {
+    return str.split('').length;
 }
 
 
 
-module.exports = add;
+module.exports = characterCount;
