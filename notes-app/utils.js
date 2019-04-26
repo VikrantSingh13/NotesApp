@@ -6,6 +6,9 @@ const characterCount = function(str) {
 }
 
 const wordCount = function(str) {
+    if(str == ""){
+        return -1;
+    }
     return str.split(" ").length;
 }
 
